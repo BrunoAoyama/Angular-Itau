@@ -1,0 +1,22 @@
+ 
+ 
+<form (ngSubmit)="salvar()">   
+ 
+    <br/>
+    <h3>{{titulo}}</h3>
+ 
+    <!--<label>Código:
+        <input type="input" name="codigo" size="10" [(ngModel)]="pessoa.codigo" disabled/>
+    </label><br/><br/>-->
+ 
+    <label>Nome:
+        <input type="input" name="nome" size="30" [(ngModel)]="pessoa.nome"/>
+    </label><br/><br/>
+ 
+    <label>Funcional:
+        <input type="input" name="funcional" size="30" [(ngModel)]="pessoa.funcional"/>
+    </label><br/><br/>
+    
+ 
+    <button type="submit">Salvar</button>
+</form>
